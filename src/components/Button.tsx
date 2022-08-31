@@ -12,7 +12,9 @@ const Button: React.FC<IButton> = ({ value, onPress }) => {
     <TouchableOpacity
       className={"rounded-lg mb-20 mx-4 mt-3 items-center py-3 bg-blue"}
       onPress={onPress}>
-      <StyledText style={"text-white text-base"}>{value}</StyledText>
+      <StyledText style={"text-base"} color={"white"}>
+        {value}
+      </StyledText>
     </TouchableOpacity>
   );
 };
