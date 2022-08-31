@@ -47,13 +47,13 @@ const styles = StyleSheet.create({
   placeholderTxtStyle: {
     color: "#8A8C90",
     textAlign: "left",
-    fontFamily: "Lato sans-serif",
+    fontFamily: "Lato-Regular",
     fontSize: 16,
   },
   dropdownBtnTxtStyle: {
     color: "#151C26",
     textAlign: "left",
-    fontFamily: "Lato sans-serif",
+    fontFamily: "Lato-Regular",
     fontSize: 16,
   },
   dropdownDropdownStyle: {
@@ -66,7 +66,7 @@ const styles = StyleSheet.create({
   },
   dropdownRowTxtStyle: { color: "#151C26", textAlign: "left" },
   selectedRowTextStyle: {
-    fontFamily: "Lato sans-serif",
+    fontFamily: "Lato-Regular",
     fontSize: 16,
     fontWeight: "bold",
     color: "#0071D8",
