@@ -12,7 +12,7 @@ const StyledText: React.FC<IStyledText> = ({
   style,
   children,
   numberOfLines,
-  color,
+  color = "#151C26",
 }) => {
   return (
     <Text
